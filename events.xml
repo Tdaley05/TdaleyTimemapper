@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
+<?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
+<events>
+  <track type="1" name="My Milestones">
+    <event>
+      <title>Born in Cincinatti</title>
+      <date type="start">
+        <year>2005</year>
+        <month>06</month>
+        <era>AD</era>
+      </date>
+      <date type="end">
+        <year>2008</year>
+        <month>05</month>
+        <era>AD</era>
+      </date>
+      <description>Born in Cincinatti, lived across the river in Kentucky</description>
+      <lat>39.10130794405083</lat>
+      <lon>-84.51901300339352</lon>
+      <media></media>
+    </event>
+    <event>
+      <title>Move to PA</title>
+      <date type="start">
+        <year>2006</year>
+        <month>1</month>
+        <era>AD</era>
+      </date>
+      <date type="end">
+        <year>2008</year>
+        <month>05</month>
+        <era>AD</era>
+      </date>
+      <description>Back and forth for years, then officially moved in with my grandparents in PA</description>
+      <lat>40.43986965367831</lat>
+      <lon>-79.9980982659884</lon>
+    </event>
+  </track>
+  <track type="2" name="Surgeries and Moves"> 
+    <event>
+      <title>One of the first big things to happen to me</title>
+      <date type="start">
+        <year>2009</year>
+        <era>AD</era>
+      </date>
+      <date type="end">
+        <year>2010</year>
+        <era>AD</era>
+      </date>
+      <description>I had 3 surgeries between 4 and 5 years old to correct the alignment issues caused by Duane's Syndrome, as well as patching one eye to help the bad one gain vision back, as I became legally blind in my bad eye</description>
+      <lat>40.46734005747132</lat>
+      <lon>-79.95359037016947</lon>
+      <media>"./images/urgery.jpg"</media>
+    </event>
+    <event>
+      <title>Moves</title>
+      <date type="start">
+        <year>2019</year>
+        <era>AD</era>
+      </date>
+      <date type="end">
+        <year>2021 or 2022</year>
+        <era>AD</era>
+      </date>
+      <description>Moved to nearby district at the beginning of highschool. Moved again nearby during then, then lived back at my grandparents by September 2022</description>
+      <lat>40.51049044048103</lat>
+      <lon>-80.22001046109973</lon>
+    </event>
+    
+    <event>
+      <title>Graduated highschool, came to Behrend</title>
+      <date type="start">
+        <year>2023</year>
+        <month>06</month>
+        <era>AD</era>
+      </date>
+      <date type="end">
+        <year>2023</year>
+        <month>08</month>
+        <era>AD</era>
+      </date>
+      <description>Decide to apply to Behrend on a whim, managed to get in, where I've obviously been for the past few years</description>
+      <lat>42.1200475737725</lat>
+      <lon>-79.98270541684232</lon>
+    </event>
+  </track>
+  
+  
+</events>
